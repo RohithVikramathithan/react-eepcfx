@@ -30,3 +30,19 @@ export function ForTester() {
     </div>
   );
 }
+var arr = [
+        <h1 key="1">Hello world!</h1>,
+        <h2 key="2">React is awesome</h2>
+      ];
+      export function  ForLoopTesterallAccess(){
+        return (
+        
+          <div >{arr}</div>
+          
+        );
+      }
+      export function  ForLoopTesterIAccess(){
+        return (
+          arr[0]
+        );
+      }
